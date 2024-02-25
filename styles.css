@@ -1,0 +1,36 @@
+/*body {
+  font-family: helvetica, sans-serif;
+  width: 350px;
+}*/
+
+body {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #FFEBCD;
+}
+
+label {
+  font-weight: bold;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+p {
+  background: #ffc125;
+  color: #5e2612;
+  padding: 10px;
+  visibility: hidden;
+}
+
+.randomize {
+  font-weight: bold;
+  height: 30px;
+}
