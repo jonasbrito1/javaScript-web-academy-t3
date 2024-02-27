@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Gerador de Histórias Aleatórias</title>
-  </head>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Galeria de imagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <div>
-      <label for="customname">Digite seu Nome:</label>
-      <input id="customname" type="text" placeholder="" />
+<body>
+  <h1>CARROS</h1>
+  <div class="gallery-container">
+    <div class="full-img">
+      <img class="displayed-img" src="images/image1.jpg" alt="imagem1">
+    </div> 
+    <div class="overlay"></div>
+    <button class="dark">Darken</button>
+  
+    <div class="thumb-bar">
+      <img class="thumb-img" src="images/image1.jpg" alt="imagem2">
+      <img class="thumb-img" src="images/image2.jpg" alt="imagem3">
+      <img class="thumb-img" src="images/image3.jpg" alt="imagem4">
+      <img class="thumb-img" src="images/image4.jpg" alt="imagem5">
+      <img class="thumb-img" src="images/image5.jpg" alt="imagem6">
+      <img class="thumb-img" src="images/image6.jpg" alt="imagem7">
     </div>
-    <div>
-      <label for="us">PT</label>
-      <input id="us" type="radio" name="ukus" value="us" checked />
-      <label for="uk">BR</label>
-      <input id="uk" type="radio" name="ukus" value="uk" />
-    </div>
-    <div>
-      <button class="randomize">Gerar história aleatória</button>
-    </div>
-    <p class="story"></p>
-    <script src="/main.js"></script>
+  </div>
 
-  </body>
+  <script src="main.js"></script>
+</body>
 </html>
-
